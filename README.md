@@ -1,1 +1,36 @@
-<video src="./preview.mp4" autoplay loop muted playsinline width="800"></video>
+<img src="./docs/_media/demo.gif">
+<video src="./docs/_media/preview.mp4" autoplay loop muted playsinline width="800"></video>
+
+# Dotfiles
+
+My personal configuration of my Fedora + Hyprland setup with bunch of other apps
+using [GNU Stow](https://www.gnu.org/software/stow/).
+
+## Installation
+
+- install [GNU Stow](https://www.gnu.org/software/stow/)
+- Clone repo
+
+```bash
+git clone https://github.com/bag1s3k/dotfiles.git ~/dotfiles
+```
+
+### Usage
+
+Symlink for specific package (e.g `vim`):
+
+```bash
+stow vim
+```
+
+To symlink all packages in once:
+
+```bash
+stow */
+```
+
+### Removing symlink
+
+```bash
+stow -D zsh
+```
