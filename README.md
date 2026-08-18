@@ -1,5 +1,5 @@
-<img src="./docs/_media/demo.gif">
-<video src="./docs/_media/preview.mp4" autoplay loop muted playsinline width="800"></video>
+<img src="./demo.gif">
+<video src="./preview.mp4" autoplay loop muted playsinline width="800"></video>
 
 # Dotfiles
 
